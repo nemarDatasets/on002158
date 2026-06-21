@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging",
-  "description": "This multimodal neuroimaging dataset investigates the neural mechanisms of metacognition—the ability to evaluate decision confidence—by isolating postdecisional from decisional contributions. Healthy volunteers performed perceptual discrimination tasks while reporting confidence in their own decisions or observed decisions, with concurrent electroencephalography and functional magnetic resonance imaging recordings. The dataset includes raw and preprocessed EEG and fMRI data, anatomical scans, and field maps, enabling investigation of how committing to a decision influences metacognitive performance and its neural correlates.",
-  "methods_description": "Participants performed speeded perceptual judgments with confidence ratings under active decision-making and observation conditions. Data were acquired using concurrent EEG and fMRI. EEG preprocessing included MR-gradient artifact removal, heartbeat detection for ballistocardiogram correction, bandpass filtering (1-10 Hz), epoching around response onset, and independent component analysis. fMRI data were modeled using general linear models with regressors for task conditions parametrically modulated by confidence ratings, response times, and perceptual evidence.",
+  "description": "This multimodal neuroimaging dataset investigates the neural mechanisms of metacognition—the ability to assess decision confidence—by isolating postdecisional from decisional contributions. Healthy volunteers performed perceptual judgments and observed decisions while reporting confidence, with concurrent electroencephalography and functional magnetic resonance imaging recordings. The study reveals dissociable neural correlates of confidence in prefrontal regions and proposes a computational model explaining how decision commitment enhances metacognitive performance.",
+  "methods_description": "Participants performed speeded perceptual judgments (numerosity discrimination) in active and observation conditions while reporting confidence. Data were acquired using concurrent EEG and fMRI. EEG preprocessing included MR-gradient artifact removal, ballistocardiogram correction, bandpass filtering (1-10 Hz), independent component analysis, and dipolar source localization. fMRI analysis employed general linear modeling with parametric modulation by confidence ratings, response times, and perceptual evidence, with group-level results corrected for multiple comparisons using cluster-extent family-wise error correction.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -84,23 +84,19 @@
       "term": "fMRI"
     },
     {
-      "term": "Metacognition",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000067489"
+      "term": "metacognition"
     },
     {
       "term": "confidence judgment"
     },
     {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+      "term": "decision making"
+    },
+    {
+      "term": "prefrontal cortex"
     },
     {
       "term": "multimodal imaging"
-    },
-    {
-      "term": "perceptual judgment"
     }
   ],
   "related_identifiers": [
