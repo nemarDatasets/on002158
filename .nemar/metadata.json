@@ -1,43 +1,105 @@
 {
   "version": "2.0",
-  "dataset_id": "on002158",
-  "source": "openneuro",
-  "source_id": "ds002158",
+  "pipeline_stage": "validated",
   "title": "Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging",
-  "authors": {
-    "Michael Pereira": {},
-    "Nathan Faivre": {},
-    "Inaki Iturrate": {},
-    "Marco Wirthlin": {},
-    "Luana Serafini": {},
-    "Stephanie Martin": {},
-    "Arnaud Desvachez": {},
-    "Olaf Blanke": {},
-    "Dimitri Van de Ville": {},
-    "Jose del R. Millan": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Michael Pereira": {
+      "orcid": "0000-0003-0778-674X",
+      "affiliations": [
+        {
+          "name": "Center for Neuroprosthetics, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Laboratory of Cognitive Neuroscience, Brain Mind Institute, Faculty of Life Sciences, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Laboratoire de Psychologie et Neurocognition, CNRS UMR 5105, Universit?? Grenoble Alpes, 38400 Saint-Martin-d'H??res, France;"
+        }
+      ]
+    },
+    "Nathan Faivre": {
+      "orcid": "0000-0001-6011-4921",
+      "affiliations": [
+        {
+          "name": "Center for Neuroprosthetics, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Laboratory of Cognitive Neuroscience, Brain Mind Institute, Faculty of Life Sciences, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Laboratoire de Psychologie et Neurocognition, CNRS UMR 5105, Universit?? Grenoble Alpes, 38400 Saint-Martin-d'H??res, France;"
+        }
+      ]
+    },
+    "Inaki Iturrate": {
+      "orcid": "0000-0001-7781-7826"
+    },
+    "Marco Wirthlin": {},
+    "Luana Serafini": {
+      "orcid": "0000-0002-7039-5154",
+      "affiliations": [
+        {
+          "name": "Center for Neuroprosthetics, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Laboratory of Cognitive Neuroscience, Brain Mind Institute, Faculty of Life Sciences, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Department of Biomedical, Metabolic and Neural Sciences, University of Modena and Reggio Emilia, 41121 Modena, Italy;"
+        }
+      ]
+    },
+    "Stephanie Martin": {
+      "orcid": "0000-0001-8678-5862"
+    },
+    "Arnaud Desvachez": {},
+    "Olaf Blanke": {},
+    "Dimitri Van de Ville": {
+      "orcid": "0000-0002-2879-3861",
+      "affiliations": [
+        {
+          "name": "Center for Neuroprosthetics, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Medical Image Processing Lab, Institute of Bioengineering, ??cole Polytechnique F??d??rale de Lausanne, 1202 Geneva, Switzerland;"
+        },
+        {
+          "name": "Department of Radiology and Medical Informatics, University of Geneva, 1205 Geneva, Switzerland;"
+        }
+      ]
+    },
+    "Jose del R. Millan": {
+      "orcid": "0000-0001-5819-1522"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002158.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1073/pnas.1918335117",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002158",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002158",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/496877",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
-    "anat",
-    "eeg",
-    "fmap",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg",
-    "fmap",
-    "func"
   ],
   "funding_references": [
     {
@@ -45,7 +107,61 @@
     },
     {
       "funder_name": "Swiss National Science Foundation"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "803122"
     }
   ],
-  "acknowledgements": "ACKNOWLEDGMENTS. O.B. is supported by the Bertarelli Foundation, the Swiss National Science Foundation, and the European Science Foundation. D.V.D.V. is supported by the Bertarelli Foundation and the Swiss National Science Foundation. N.F. has received funding from the European Research Council under the European Union’s Horizon 2020 research and innova- tion programme grant 803122. We thank Roberto Martuzzi, Loan Mattera, Gwénaël Birot, Gisong Kim, and Léa Vidal for their help during data acqui- sition and Elisa Filevich, Roy Salomon, and two anonymous reviewers for constructive comments on the manuscript."
+  "modalities": [
+    "eeg",
+    "func",
+    "anat",
+    "fmap"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".Rhistory",
+    ".eeg",
+    ".fdt",
+    ".gitattributes",
+    ".gz",
+    ".json",
+    ".md",
+    ".nii",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This multimodal neuroimaging dataset investigates the neural mechanisms of metacognition—the ability to evaluate decision confidence—by isolating postdecisional from decisional contributions. Healthy volunteers performed perceptual discrimination tasks while reporting confidence in their own decisions or observed decisions, with concurrent electroencephalography and functional magnetic resonance imaging recordings. The study reveals dissociable neural correlates of confidence across prefrontal regions and proposes a computational model explaining improved metacognitive performance when evidence accumulation is constrained by decision commitment.",
+  "methods_description": "Data collection involved concurrent EEG and fMRI recordings during perceptual decision-making and observation tasks. EEG preprocessing included MR-gradient artifact removal, ballistocardiogram artifact correction, bandpass filtering (1-10 Hz), independent component analysis, and dipolar source localization. fMRI analysis employed general linear modeling with parametric modulation by confidence ratings, response times, and perceptual evidence, with group-level results corrected for multiple comparisons using cluster-extent family-wise error correction.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "metacognition"
+    },
+    {
+      "term": "confidence judgment"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "prefrontal cortex"
+    },
+    {
+      "term": "multimodal imaging"
+    }
+  ],
+  "source_hash": "2bdcae3eef79ccc974a7b236852c7580ed937627576515c6514d9754e5dfd285"
 }
