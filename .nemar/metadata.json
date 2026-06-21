@@ -1,0 +1,51 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002158",
+  "source": "openneuro",
+  "source_id": "ds002158",
+  "title": "Disentangling the origins of confidence in speeded perceptual judgments through multimodal imaging",
+  "authors": {
+    "Michael Pereira": {},
+    "Nathan Faivre": {},
+    "Inaki Iturrate": {},
+    "Marco Wirthlin": {},
+    "Luana Serafini": {},
+    "Stephanie Martin": {},
+    "Arnaud Desvachez": {},
+    "Olaf Blanke": {},
+    "Dimitri Van de Ville": {},
+    "Jose del R. Millan": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds002158.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "anat",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Bertarelli Foundation"
+    },
+    {
+      "funder_name": "Swiss National Science Foundation"
+    }
+  ],
+  "acknowledgements": "ACKNOWLEDGMENTS. O.B. is supported by the Bertarelli Foundation, the Swiss National Science Foundation, and the European Science Foundation. D.V.D.V. is supported by the Bertarelli Foundation and the Swiss National Science Foundation. N.F. has received funding from the European Research Council under the European Union’s Horizon 2020 research and innova- tion programme grant 803122. We thank Roberto Martuzzi, Loan Mattera, Gwénaël Birot, Gisong Kim, and Léa Vidal for their help during data acqui- sition and Elisa Filevich, Roy Salomon, and two anonymous reviewers for constructive comments on the manuscript."
+}
